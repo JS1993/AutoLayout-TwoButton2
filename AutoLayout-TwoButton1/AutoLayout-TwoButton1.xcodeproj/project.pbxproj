@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF988FD81CC4F03400BD4D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF988FD71CC4F03400BD4D3E /* main.m */; };
+		CF988FDB1CC4F03400BD4D3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF988FDA1CC4F03400BD4D3E /* AppDelegate.m */; };
+		CF988FDE1CC4F03400BD4D3E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF988FDD1CC4F03400BD4D3E /* ViewController.m */; };
+		CF988FE11CC4F03400BD4D3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF988FDF1CC4F03400BD4D3E /* Main.storyboard */; };
+		CF988FE41CC4F03400BD4D3E /* AutoLayout_TwoButton1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF988FE21CC4F03400BD4D3E /* AutoLayout_TwoButton1.xcdatamodeld */; };
+		CF988FE61CC4F03400BD4D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF988FE51CC4F03400BD4D3E /* Assets.xcassets */; };
+		CF988FE91CC4F03400BD4D3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF988FE71CC4F03400BD4D3E /* LaunchScreen.storyboard */; };
+		CF988FF41CC4F03500BD4D3E /* AutoLayout_TwoButton1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF988FF31CC4F03500BD4D3E /* AutoLayout_TwoButton1Tests.m */; };
+		CF988FFF1CC4F03500BD4D3E /* AutoLayout_TwoButton1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF988FFE1CC4F03500BD4D3E /* AutoLayout_TwoButton1UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF988FF01CC4F03400BD4D3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF988FCB1CC4F03400BD4D3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF988FD21CC4F03400BD4D3E;
+			remoteInfo = "AutoLayout-TwoButton1";
+		};
+		CF988FFB1CC4F03500BD4D3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF988FCB1CC4F03400BD4D3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF988FD21CC4F03400BD4D3E;
+			remoteInfo = "AutoLayout-TwoButton1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF988FD31CC4F03400BD4D3E /* AutoLayout-TwoButton1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoLayout-TwoButton1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF988FD71CC4F03400BD4D3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF988FD91CC4F03400BD4D3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF988FDA1CC4F03400BD4D3E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF988FDC1CC4F03400BD4D3E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF988FDD1CC4F03400BD4D3E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF988FE01CC4F03400BD4D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF988FE31CC4F03400BD4D3E /* AutoLayout_TwoButton1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutoLayout_TwoButton1.xcdatamodel; sourceTree = "<group>"; };
+		CF988FE51CC4F03400BD4D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF988FE81CC4F03400BD4D3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF988FEA1CC4F03400BD4D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF988FEF1CC4F03400BD4D3E /* AutoLayout-TwoButton1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoLayout-TwoButton1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF988FF31CC4F03500BD4D3E /* AutoLayout_TwoButton1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayout_TwoButton1Tests.m; sourceTree = "<group>"; };
+		CF988FF51CC4F03500BD4D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF988FFA1CC4F03500BD4D3E /* AutoLayout-TwoButton1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoLayout-TwoButton1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF988FFE1CC4F03500BD4D3E /* AutoLayout_TwoButton1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayout_TwoButton1UITests.m; sourceTree = "<group>"; };
+		CF9890001CC4F03500BD4D3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF988FD01CC4F03400BD4D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF988FEC1CC4F03400BD4D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF988FF71CC4F03500BD4D3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF988FCA1CC4F03400BD4D3E = {
+			isa = PBXGroup;
+			children = (
+				CF988FD51CC4F03400BD4D3E /* AutoLayout-TwoButton1 */,
+				CF988FF21CC4F03400BD4D3E /* AutoLayout-TwoButton1Tests */,
+				CF988FFD1CC4F03500BD4D3E /* AutoLayout-TwoButton1UITests */,
+				CF988FD41CC4F03400BD4D3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF988FD41CC4F03400BD4D3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF988FD31CC4F03400BD4D3E /* AutoLayout-TwoButton1.app */,
+				CF988FEF1CC4F03400BD4D3E /* AutoLayout-TwoButton1Tests.xctest */,
+				CF988FFA1CC4F03500BD4D3E /* AutoLayout-TwoButton1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF988FD51CC4F03400BD4D3E /* AutoLayout-TwoButton1 */ = {
+			isa = PBXGroup;
+			children = (
+				CF988FD91CC4F03400BD4D3E /* AppDelegate.h */,
+				CF988FDA1CC4F03400BD4D3E /* AppDelegate.m */,
+				CF988FDC1CC4F03400BD4D3E /* ViewController.h */,
+				CF988FDD1CC4F03400BD4D3E /* ViewController.m */,
+				CF988FDF1CC4F03400BD4D3E /* Main.storyboard */,
+				CF988FE51CC4F03400BD4D3E /* Assets.xcassets */,
+				CF988FE71CC4F03400BD4D3E /* LaunchScreen.storyboard */,
+				CF988FEA1CC4F03400BD4D3E /* Info.plist */,
+				CF988FE21CC4F03400BD4D3E /* AutoLayout_TwoButton1.xcdatamodeld */,
+				CF988FD61CC4F03400BD4D3E /* Supporting Files */,
+			);
+			path = "AutoLayout-TwoButton1";
+			sourceTree = "<group>";
+		};
+		CF988FD61CC4F03400BD4D3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF988FD71CC4F03400BD4D3E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF988FF21CC4F03400BD4D3E /* AutoLayout-TwoButton1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF988FF31CC4F03500BD4D3E /* AutoLayout_TwoButton1Tests.m */,
+				CF988FF51CC4F03500BD4D3E /* Info.plist */,
+			);
+			path = "AutoLayout-TwoButton1Tests";
+			sourceTree = "<group>";
+		};
+		CF988FFD1CC4F03500BD4D3E /* AutoLayout-TwoButton1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF988FFE1CC4F03500BD4D3E /* AutoLayout_TwoButton1UITests.m */,
+				CF9890001CC4F03500BD4D3E /* Info.plist */,
+			);
+			path = "AutoLayout-TwoButton1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF988FD21CC4F03400BD4D3E /* AutoLayout-TwoButton1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9890031CC4F03500BD4D3E /* Build configuration list for PBXNativeTarget "AutoLayout-TwoButton1" */;
+			buildPhases = (
+				CF988FCF1CC4F03400BD4D3E /* Sources */,
+				CF988FD01CC4F03400BD4D3E /* Frameworks */,
+				CF988FD11CC4F03400BD4D3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AutoLayout-TwoButton1";
+			productName = "AutoLayout-TwoButton1";
+			productReference = CF988FD31CC4F03400BD4D3E /* AutoLayout-TwoButton1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF988FEE1CC4F03400BD4D3E /* AutoLayout-TwoButton1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9890061CC4F03500BD4D3E /* Build configuration list for PBXNativeTarget "AutoLayout-TwoButton1Tests" */;
+			buildPhases = (
+				CF988FEB1CC4F03400BD4D3E /* Sources */,
+				CF988FEC1CC4F03400BD4D3E /* Frameworks */,
+				CF988FED1CC4F03400BD4D3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF988FF11CC4F03400BD4D3E /* PBXTargetDependency */,
+			);
+			name = "AutoLayout-TwoButton1Tests";
+			productName = "AutoLayout-TwoButton1Tests";
+			productReference = CF988FEF1CC4F03400BD4D3E /* AutoLayout-TwoButton1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF988FF91CC4F03500BD4D3E /* AutoLayout-TwoButton1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9890091CC4F03500BD4D3E /* Build configuration list for PBXNativeTarget "AutoLayout-TwoButton1UITests" */;
+			buildPhases = (
+				CF988FF61CC4F03500BD4D3E /* Sources */,
+				CF988FF71CC4F03500BD4D3E /* Frameworks */,
+				CF988FF81CC4F03500BD4D3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF988FFC1CC4F03500BD4D3E /* PBXTargetDependency */,
+			);
+			name = "AutoLayout-TwoButton1UITests";
+			productName = "AutoLayout-TwoButton1UITests";
+			productReference = CF988FFA1CC4F03500BD4D3E /* AutoLayout-TwoButton1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF988FCB1CC4F03400BD4D3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF988FD21CC4F03400BD4D3E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF988FEE1CC4F03400BD4D3E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF988FD21CC4F03400BD4D3E;
+					};
+					CF988FF91CC4F03500BD4D3E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF988FD21CC4F03400BD4D3E;
+					};
+				};
+			};
+			buildConfigurationList = CF988FCE1CC4F03400BD4D3E /* Build configuration list for PBXProject "AutoLayout-TwoButton1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF988FCA1CC4F03400BD4D3E;
+			productRefGroup = CF988FD41CC4F03400BD4D3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF988FD21CC4F03400BD4D3E /* AutoLayout-TwoButton1 */,
+				CF988FEE1CC4F03400BD4D3E /* AutoLayout-TwoButton1Tests */,
+				CF988FF91CC4F03500BD4D3E /* AutoLayout-TwoButton1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF988FD11CC4F03400BD4D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF988FE91CC4F03400BD4D3E /* LaunchScreen.storyboard in Resources */,
+				CF988FE61CC4F03400BD4D3E /* Assets.xcassets in Resources */,
+				CF988FE11CC4F03400BD4D3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF988FED1CC4F03400BD4D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF988FF81CC4F03500BD4D3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF988FCF1CC4F03400BD4D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF988FDE1CC4F03400BD4D3E /* ViewController.m in Sources */,
+				CF988FDB1CC4F03400BD4D3E /* AppDelegate.m in Sources */,
+				CF988FD81CC4F03400BD4D3E /* main.m in Sources */,
+				CF988FE41CC4F03400BD4D3E /* AutoLayout_TwoButton1.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF988FEB1CC4F03400BD4D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF988FF41CC4F03500BD4D3E /* AutoLayout_TwoButton1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF988FF61CC4F03500BD4D3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF988FFF1CC4F03500BD4D3E /* AutoLayout_TwoButton1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF988FF11CC4F03400BD4D3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF988FD21CC4F03400BD4D3E /* AutoLayout-TwoButton1 */;
+			targetProxy = CF988FF01CC4F03400BD4D3E /* PBXContainerItemProxy */;
+		};
+		CF988FFC1CC4F03500BD4D3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF988FD21CC4F03400BD4D3E /* AutoLayout-TwoButton1 */;
+			targetProxy = CF988FFB1CC4F03500BD4D3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF988FDF1CC4F03400BD4D3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF988FE01CC4F03400BD4D3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF988FE71CC4F03400BD4D3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF988FE81CC4F03400BD4D3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF9890011CC4F03500BD4D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF9890021CC4F03500BD4D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF9890041CC4F03500BD4D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AutoLayout-TwoButton1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.AutoLayout-TwoButton1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF9890051CC4F03500BD4D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AutoLayout-TwoButton1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.AutoLayout-TwoButton1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF9890071CC4F03500BD4D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AutoLayout-TwoButton1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.AutoLayout-TwoButton1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayout-TwoButton1.app/AutoLayout-TwoButton1";
+			};
+			name = Debug;
+		};
+		CF9890081CC4F03500BD4D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AutoLayout-TwoButton1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.AutoLayout-TwoButton1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayout-TwoButton1.app/AutoLayout-TwoButton1";
+			};
+			name = Release;
+		};
+		CF98900A1CC4F03500BD4D3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AutoLayout-TwoButton1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.AutoLayout-TwoButton1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AutoLayout-TwoButton1";
+			};
+			name = Debug;
+		};
+		CF98900B1CC4F03500BD4D3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AutoLayout-TwoButton1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.AutoLayout-TwoButton1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AutoLayout-TwoButton1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF988FCE1CC4F03400BD4D3E /* Build configuration list for PBXProject "AutoLayout-TwoButton1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9890011CC4F03500BD4D3E /* Debug */,
+				CF9890021CC4F03500BD4D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9890031CC4F03500BD4D3E /* Build configuration list for PBXNativeTarget "AutoLayout-TwoButton1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9890041CC4F03500BD4D3E /* Debug */,
+				CF9890051CC4F03500BD4D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF9890061CC4F03500BD4D3E /* Build configuration list for PBXNativeTarget "AutoLayout-TwoButton1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF9890071CC4F03500BD4D3E /* Debug */,
+				CF9890081CC4F03500BD4D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF9890091CC4F03500BD4D3E /* Build configuration list for PBXNativeTarget "AutoLayout-TwoButton1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF98900A1CC4F03500BD4D3E /* Debug */,
+				CF98900B1CC4F03500BD4D3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF988FE21CC4F03400BD4D3E /* AutoLayout_TwoButton1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF988FE31CC4F03400BD4D3E /* AutoLayout_TwoButton1.xcdatamodel */,
+			);
+			currentVersion = CF988FE31CC4F03400BD4D3E /* AutoLayout_TwoButton1.xcdatamodel */;
+			path = AutoLayout_TwoButton1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF988FCB1CC4F03400BD4D3E /* Project object */;
+}
